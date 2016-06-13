@@ -1,22 +1,45 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
        <head>
               <title>Shopping Cart</title>
               <meta charset="UTF-8">
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="icon" type="image/png" href="img/cart_icon.png"/>
+              <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+              <link rel="stylesheet" type="text/css" href="css/style.css"/>
        </head>
        <body>
-              <div>Shopping Cart Results</div>
-              
-              
-              
-              
-              <script src="js/shopCart.js" type="text/javascript"></script>
-              <script>menu();</script>
+              <div class="container">
+                     <div class="row">
+                            <div class="col-md-12">
+                                   <h1 class="text-center">Bienvenido al frutero Gregorio</h1>
+
+                                   <div class="text-center">
+                                          <select class="dropdown">
+                                                 <option selected="0" value="0">0</option>
+                                                 <option value="1">1</option>
+                                                 <option value="2">2</option>
+                                                 <option value="3">3</option>
+                                                 <option value="4">4</option>
+                                                 <option value="5">5</option>
+                                          </select>
+
+                                          <select class="dropdown">
+                                                 <option selected="0" value="0">Escoge hijo de fruta</option>
+                                                 <option value="kiwi">Kiwi</option>
+                                                 <option value="manzana">Manzana</option>
+                                                 <option value="naranja">Naranja</option>
+                                                 <option value="pera">Pera</option>
+                                                 <option value="platano">Plátano</option>
+                                          </select>
+
+                                   </div>
+                            </div>
+                     </div>
+              </div>
+              <script src="js/jquery-2.2.4.min.js"></script>
+              <script src="js/bootstrap.min.js" type="text/javascript"></script>
+              <script src="js/functions.js" type="text/javascript"></script>
+              <!--<script>menu();</script>-->
        </body>
 </html>

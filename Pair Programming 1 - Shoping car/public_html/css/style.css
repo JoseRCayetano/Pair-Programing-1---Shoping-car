@@ -1,0 +1,6 @@
+.dropdown {
+    height: 30px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+}
