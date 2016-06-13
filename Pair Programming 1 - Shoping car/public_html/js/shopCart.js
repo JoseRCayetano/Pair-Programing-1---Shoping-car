@@ -13,13 +13,13 @@ Fruit.prototype.quantityPricing = function () {
 function menu() {
     do {
         var option = prompt("1. Nueva fruta \n 2. Show \n Elige una de las dos opciones");
-        if (option === 1) {
+        if (option === "1") {
             var quantity = prompt("Cantidad: ");
             var type = prompt("Tipo de fruta: ");
             var price = prompt("Precio: ");
             addToShoppingCart(quantity, type, price);
         }
-    } while (option === 1);
+    } while (option === "1");
     show();
 }
 
