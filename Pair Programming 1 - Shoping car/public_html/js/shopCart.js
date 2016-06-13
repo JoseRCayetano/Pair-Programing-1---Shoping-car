@@ -29,7 +29,8 @@ function addToShoppingCart(quantity, type, price) {
 }
 
 function show() {
-    cart.reduce(function (memo, fruit) {
-        return memo + fruit.quantityPricing;
+    var result = cart.reduce(function (memo, fruit) {
+        return memo + fruit.quantityPricing();
     }, 0);
+    alert (result);
 }
